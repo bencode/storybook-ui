@@ -36,9 +36,9 @@ var _hsplit = require('./hsplit');
 
 var _hsplit2 = _interopRequireDefault(_hsplit);
 
-var _reactSplitPane = require('@kadira/react-split-pane');
+var _kadiraReactSplitPane = require('kadira-react-split-pane');
 
-var _reactSplitPane2 = _interopRequireDefault(_reactSplitPane);
+var _kadiraReactSplitPane2 = _interopRequireDefault(_kadiraReactSplitPane);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -123,7 +123,7 @@ var Layout = function (_React$Component) {
         'div',
         { style: rootStyle },
         _react2.default.createElement(
-          _reactSplitPane2.default,
+          _kadiraReactSplitPane2.default,
           {
             split: 'vertical',
             minSize: leftPanelDefaultSize,
@@ -138,7 +138,7 @@ var Layout = function (_React$Component) {
             props.showLeftPanel ? props.leftPanel() : null
           ),
           _react2.default.createElement(
-            _reactSplitPane2.default,
+            _kadiraReactSplitPane2.default,
             {
               split: 'horizontal',
               primary: 'second',

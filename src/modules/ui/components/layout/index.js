@@ -2,7 +2,7 @@ import React from 'react';
 
 import VSplit from './vsplit';
 import HSplit from './hsplit';
-import SplitPane from '@kadira/react-split-pane';
+import SplitPane from 'kadira-react-split-pane';
 
 const rootStyle = {
   height: '100vh',
